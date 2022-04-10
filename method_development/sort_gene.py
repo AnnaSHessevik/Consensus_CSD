@@ -4,7 +4,9 @@ Created on Thu Sep 16 14:49:38 2021
 
 @author: annas
 This script sorts data sets (which contain the same genes). As a result, the 
-new data sets contain the same genes in the same order.
+new data sets contain the same genes in the same order. Not important for the method developemnt of my master thesis,
+but should be included if it is wishful to analyse the effect of combined correlation coefficients in a controlled setting
+at the level of CSD networks.
 """
 
 def sort_files(infile, outfile):
