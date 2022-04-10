@@ -8,8 +8,8 @@ Generates a file where Gencode IDs are translated to gene names, otherwise equal
 """
 
 infile1 = open("gencode2gene_names.txt")
-infile2 = open("Formated_Skin_Sun_Exposed.txt")
-outfile = open("gene_names_sun.txt", 'w')
+infile2 = open("Formated_Skin_Not_Sun_Exposed.txt")
+outfile = open("gene_names_not_sun.txt", 'w')
 
 #Make a dictionary with gencodes as keys and gene names as values
 dict1 = dict()
