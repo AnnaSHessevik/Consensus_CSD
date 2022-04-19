@@ -1,5 +1,6 @@
+#This script combines correlation coefficients
 
-sample_type=ctrl #Specified by used, BP or ctrl
+sample_type=ctrl #Specified by user, BP or ctrl
 
 num_datasets=0  #do not change
 sample_sizes="" #string of sample sizes, do not change
