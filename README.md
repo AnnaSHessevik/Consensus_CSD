@@ -1,6 +1,6 @@
 # Consensus CSD
 
-This repository includes all code and generated networks which has been utilized in my master's thesis to develop and generate consensus CSD networks for bipolar disorder (BP). This repository is divided into two main sections: Method Development and BP analysis. These are described in more detail below. Note that the BP analysis also include a file with the generated CSD network(s) for BP. 
+This repository includes all code and generated networks which has been utilized in my master's thesis to develop and generate consensus CSD networks for bipolar disorder (BP). This repository is divided into two main sections: Method Development and BP analysis. These are described in more detail below.
 The provided code should be viewed as an extension of the conventional CSD approach, for which the code can be found at https://github.com/andre-voigt/CSD.
 
 ## Method Development
@@ -16,3 +16,5 @@ The consensus CSD analysis of BP consists of five major steps:
 3. Conential CSD analysis and significance filtering: run the remaining part of the CSD analysis as explaied at https://github.com/andre-voigt/CSD. An additional step with significance filtering of the correlations have also been included. 
 4. Network analysis: investigation and calculation of degree distribution (from Cytoscape), network assortativity, average clustering and identification of communities, hubs and characteristics of known disease genes for BP. The network analyses also included funtional analyses, but these were mainly conducted using external software.
 5. Comparisons: clustering analysis of Spearman rank correlation coefficients from each data set, comparison of Fisher's Z transformed and weighted untransformed averages at the level of correlation coefficients by calculating correlation of correlations and Jaccard indexes, comparison of Fisher's Z transformed and weighted untransformed averages at the network level by evaluating characteristics and identity of nodes and links and by visualizing the overlap of the networks and comparison of underlying correlation coefficients in the CSD network based on weighted untransformed averages to basal ganglia (may be seen as a part of the functional analyses in the master's thesis).
+
+ Note that the BP analysis also include a file with the generated CSD network(s) for BP. 
