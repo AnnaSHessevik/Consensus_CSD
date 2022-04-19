@@ -19,9 +19,9 @@ The consensus CSD analysis of BP consists of five major steps as listed below. N
 
 ## General Consensus CSD Analysis
 The developed methods for creating consensus CSD networks may be applied to other conditions/disorders/diseases. In these cases, it is important to process the data sets in advance. The input files are expected to have the same format as outlined in the conventional CSD approach (https://github.com/andre-voigt/CSD). In addition, all data sets must contain the same genes. In order to create a final consensus CSD network, the following commands should be run:
-1. **./sort_and_FindCorr.sh**: sort expression files and calculates Spearman rank correlation coefficients.
-2. **./combined_corr.sh**: generate the appropriate format for the input into improved_fisher_transformation.py, which combine correlation coefficients using both Fisher's Z transformed and weighted untransformed averages. Alternatively, one may apply the command python3 improved_fisher_transformation.py directly.
-3. **python3 process_combined_corr.py**: Convert the output file from step 2 into a readable format for subsequent CSD analysis.
-4. **python2 FindCSD.py** and **python2 CreateNetwork.py**: Compute C, S and D scores and create the CSD network as described at https://github.com/andre-voigt/CSD.
+1. **./sort_and_FindCorr.sh**: sorts expression files and calculates Spearman rank correlation coefficients.
+2. **./combined_corr.sh**: generates the appropriate format for the input into improved_fisher_transformation.py, which combines correlation coefficients using both Fisher's Z transformed and weighted untransformed averages. Alternatively, one may apply the command python3 improved_fisher_transformation.py directly.
+3. **python3 process_combined_corr.py**: converts the output file from step 2 into a readable format for subsequent CSD analysis.
+4. **python2 FindCSD.py** and **python2 CreateNetwork.py**: compute C, S and D scores and create the CSD network as described at https://github.com/andre-voigt/CSD.
 5. **python3 check_underlying_corr.py**, **significance_filtering.xlsx** and **python3 filter_CSD.py**: identify underlying correlations of the links in the CSD network, calculate corrected p-values and exclude insignificant correlations.
 
