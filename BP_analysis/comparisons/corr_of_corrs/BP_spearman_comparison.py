@@ -51,7 +51,7 @@ def calculate_correlation(fisher_corr):
         spearman = stats.spearmanr(fisher_corr_list, test_corr_list)
         
         if sys.argv[3] == "Y":
-            plt.rcParams.update({'font.size': 14})
+            plt.rcParams.update({'font.size': 18})
             matplotlib.rcParams["mathtext.default"] = "regular"
             
             #Scatter plot
@@ -73,7 +73,7 @@ def calculate_correlation(fisher_corr):
                 cb.set_label('Number of entries')
                 plt.xlabel("Untransformed average correlation", fontweight='bold')
                 plt.ylabel("Transformed average correlation", fontweight='bold')
-                plt.text(-0.9, 0.8, r'$r_s$ = $%.4f$' % (spearman[0]), fontsize=14)
+                plt.text(-0.9, 0.8, r'$r_s$ = $%.4f$' % (spearman[0]), fontsize=18)
                 #plt.show()
                 plt.plot([-1, 1], [-1,1],linestyle='dashed', color = 'black')
                 plt.savefig(sys.argv[2] +"correlation_of_correlations_heatmap.png", dpi=500, bbox_inches='tight')
