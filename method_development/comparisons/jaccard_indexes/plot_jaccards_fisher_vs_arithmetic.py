@@ -35,6 +35,7 @@ def generate_plot(infiles):
         i += 1
     
     #Add labels, correct scale etc.
+    plt.rcParams['font.size'] = '12' #Change font size
     ax.set_ylabel('Jaccard index', fontweight='bold')
     ax.set_xlabel("Number of investigated gene pairs", fontweight='bold')
     ax.set_xscale('log')
