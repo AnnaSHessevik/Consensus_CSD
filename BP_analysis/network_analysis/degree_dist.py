@@ -20,8 +20,8 @@ def plot_dd(G, col, pars, r2, fig_name):
     fig, ax = plt.subplots()
     
     plt.plot(values, counts, "o", c = "black")
-    plt.xlabel("Degree", fontweight='bold')
-    plt.ylabel("Number of nodes", fontweight='bold')
+    plt.xlabel("Degree", fontweight='bold', fontsize=16)
+    plt.ylabel("Number of nodes", fontweight='bold', fontsize=16)
     ax.set_xscale('log')
     ax.set_yscale('log')
     plt.xlim([1,51])
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     fisher_file.close()
     
     #Create degree distribution, replicated from Cytoscape
-    plt.rcParams['font.size'] = '16' #Change font size
+    plt.rcParams['font.size'] = '14' #Change font size
     plot_dd(G_arithmetic, "lime", [238.32, -1.743], 0.899, "deg_dist_arithmetic.png")
     plot_dd(G_fisher, "indigo", [336.96, -1.862], 0.937, "deg_dist_fisher.png")
     
