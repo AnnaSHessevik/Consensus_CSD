@@ -4,7 +4,7 @@ Created on Thu Sep 16 13:28:48 2021
 
 @author: annas
 
-Select n random genes that are present in both of the two input data sets.
+This scipt selects n random genes that are present in both of the two input data sets.
 These genes are written to an output file. In addition, two files
 corresponding to the original input data sets but with expressions
 for only the random genes are generated.
