@@ -3,8 +3,7 @@
 Created on Wed Sep 15 16:16:18 2021
 
 @author: annas
-Average gene expressions for GenCode IDs which correspond to the same gene name.
-Very similar to Combine_gene_expressions.py
+This script averages gene expressions for GenCode IDs which correspond to the same gene name.
 """
 
 #Create a dictionary where the keys corresponds to gene names and the 
