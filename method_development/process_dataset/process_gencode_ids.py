@@ -3,8 +3,8 @@
 Created on Wed Sep 15 13:13:51 2021
 
 @author: annas
-This file process the gencode.v26.GRCh38.genes.gtf from GTEx Portal. A new file is
-generated which contain the Gencode ID in the first row and the corresponding 
+This file processes the gencode.v26.GRCh38.genes.gtf from GTEx Portal. A new file is
+generated which contains the Gencode ID in the first row and the corresponding 
 gene name in the second row. Only genes are included in the new file.
 """
 
