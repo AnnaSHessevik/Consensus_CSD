@@ -3,7 +3,7 @@
 Created on Wed Mar  9 13:00:04 2022
 
 @author: annas
-This script calculates assortativity and clustering of a input CSD 
+This script calculates assortativity and clustering of an input CSD 
 network (and the individual C, S and D networks)
 """
 
