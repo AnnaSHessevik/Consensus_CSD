@@ -5,7 +5,8 @@ Created on Thu Sep 16 14:49:38 2021
 @author: annas
 This script sorts data sets (which contain the same genes). As a result, the 
 new data sets contain the same genes in the same order.
-Note that this script is not a required step for the correct method development in my master's thesis. 
+Note that this script is not a required step for the correct method development 
+in my master's thesis as this part is based on just one data set. 
 """
 
 def sort_files(infile, outfile):
