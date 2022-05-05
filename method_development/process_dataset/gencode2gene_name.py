@@ -3,8 +3,8 @@
 Created on Fri Sep 10 12:58:11 2021
 
 @author: annas
-Checked for duplicates and missing identifiers in data set.
-Generates a file where Gencode IDs are translated to gene names, otherwise equal to input data set.
+This script checks for duplicates and missing identifiers in a data set.
+It generates a file where Gencode IDs are translated to gene names, but it is otherwise equal to input data set.
 """
 
 infile1 = open("gencode2gene_names.txt")
