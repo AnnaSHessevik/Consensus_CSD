@@ -30,7 +30,7 @@ i = 0 #counter
 bp_index = []
 control_index = []
 
-#First line contains sampel IDs
+#First line contains sample IDs
 ids = raw_data.readline().rstrip().split('\t')
 
 
