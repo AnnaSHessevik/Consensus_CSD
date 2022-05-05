@@ -9,7 +9,8 @@ The chosen file is dependent on the subsample size of the origial file
 where the correlation was calculated.
 Arguments:
     1) Name of input file from which the correlation was calculated
-    2) The sample size of the subsample
+    2) The correlation coefficient
+    3) The sample size of the subsample
 """
 
 import sys
