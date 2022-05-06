@@ -1,4 +1,6 @@
 
+#This script calculates RMSEs for several files/Spearman rank correlation data sets
+
 i=1
 for file in combined_spearman_not_sun*;
 do
