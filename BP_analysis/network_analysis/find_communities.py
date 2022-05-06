@@ -3,7 +3,7 @@
 Created on Mon Feb 28 10:39:58 2022
 
 @author: annas
-This script identifies communities in the input network.
+This script identifies communities in the input network using the Louvain algorithm.
 """
 
 import networkx as nx
