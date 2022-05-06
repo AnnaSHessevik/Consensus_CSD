@@ -1,5 +1,5 @@
-#Calculate jaccard indexes between correlations based on Fisher's Z transformed values and weighted untransformed values
-#Remember to change script according to investigation of BP or ctrl samples
+#This script calculates Jaccard indexes between correlations based on Fisher's Z transformed values and weighted untransformed values.
+#Remember to change script according to investigation of BP or ctrl samples.
 
 #Sort file 1
 echo "Sort fisher file" #Follow progress 
