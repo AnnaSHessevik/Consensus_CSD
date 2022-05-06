@@ -4,6 +4,8 @@ Created on Mon Oct 11 11:47:03 2021
 
 @author: annas
 This script performs the paired Wilcoxon signed-rank test
+for comparison of correlation of correlations between the two 
+combination methods.
 """
 
 from scipy.stats import wilcoxon
