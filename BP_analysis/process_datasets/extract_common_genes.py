@@ -3,7 +3,7 @@
 Created on Fri Nov 12 10:20:27 2021
 
 @author: annas
-This scripts read expression files and a file with common genes and write 
+This script reads expression files and a file with common genes and write 
 new expression files which only include the common genes.
 """
 
