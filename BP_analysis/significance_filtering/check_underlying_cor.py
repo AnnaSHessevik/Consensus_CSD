@@ -3,9 +3,9 @@
 Created on Wed Jan 26 10:50:01 2022
 
 @author: annas
-This script find the correlations used to calculate the C,S and D scores
-in the CSD network. This is used to make sure that the correlations are regarded 
-as significant.
+This script finds the correlations used to calculate the C,S and D scores
+in the CSD network. This is used to make sure that the correlations may be 
+considered as significant.
 """
 
 import sys
