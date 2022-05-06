@@ -1,3 +1,4 @@
+//Weakly modified version of FindCorrAndVar.cpp by André Voigt from the original CSD approach.
 //Run this before FindCSD.cpp . Run it once on each data set for which you want to find correlations. Correlation and variance is output to RhoAndVar.txt - remember to rename the file before running the next iteration, or your original data will be overwritten. If you want to run the computations for each file in parallel, make a separate folder for each data set, copy this code to that folder and compile there. 
 
 #include <ctime>
