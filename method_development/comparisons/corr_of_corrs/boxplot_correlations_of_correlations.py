@@ -3,7 +3,7 @@
 Created on Fri Oct  1 15:15:08 2021
 
 @author: annas
-This script creates a box plot for correlations of correlations.
+This script creates a box plot for correlations of correlations for the two combination methods.
 """
 
 import sys
