@@ -3,7 +3,6 @@
 
 @author: annas
 This script performs the paired Wilcoxon signed-rank test for RMSE.
-Modified version of mann_witney_wilcoxon.py
 """
 
 from scipy.stats import wilcoxon
