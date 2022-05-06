@@ -81,7 +81,7 @@ def calculate_correlation(fisher_corr):
         return 0
     
 if __name__ == '__main__':
-    fisher_corr = open(sys.argv[1])
+    fisher_corr = open(sys.argv[1]) #names are only logical when the script is used to compare combined correlation coefficients.
     spearman = calculate_correlation(fisher_corr)
     
     if spearman != 0:
