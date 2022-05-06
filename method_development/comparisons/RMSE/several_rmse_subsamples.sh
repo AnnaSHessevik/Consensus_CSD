@@ -1,4 +1,5 @@
-#Calculate root mean square error for Spearman rank correlation coefficients from subsample data sets
+#This script calculates RMSEs for Spearman rank correlation coefficients from subsample data sets
+#relative to a reference data set.
 
 i=1
 for file in spearman_subsample*;
