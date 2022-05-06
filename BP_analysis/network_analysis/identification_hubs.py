@@ -3,7 +3,7 @@
 Created on Mon Mar  7 15:35:24 2022
 
 @author: annas
-This script identifies and write hubs with k > n to a file. 
+This script identifies and writes hubs with k > n to a file. 
 The node homogeneity is also calculated for each hub.
 """
 import networkx as nx
