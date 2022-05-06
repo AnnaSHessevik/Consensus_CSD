@@ -4,7 +4,7 @@ Created on Tue Apr 13 15:55:27 2021
 
 @author: annas
 This script "averages" Spearman rank correlations in input data sets based on 
-Fishers Z transformation.
+Fisher's Z transformation or weighted untransformed averages.
 The input data sets must contain the same gene pairs.
 If arguments are passed to this script from the command line, they must follow these rules:
     Argument 1 is the number of datasets
