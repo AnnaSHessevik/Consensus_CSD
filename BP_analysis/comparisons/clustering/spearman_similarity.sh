@@ -1,4 +1,4 @@
-#This scripts calculates the correlation between BP or control Spearman rank correlation coefficient  sets to check the similarity
+#This script calculates the correlation between BP or control Spearman rank correlation coefficient sets to check the similarity
 #between each set. 
 
 set -o noclobber #prevent overwriting existing files
