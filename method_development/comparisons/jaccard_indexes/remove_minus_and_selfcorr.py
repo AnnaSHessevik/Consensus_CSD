@@ -5,7 +5,7 @@ Created on Fri Oct  8 14:02:35 2021
 @author: annas
 This script removes negative signs in a spesified column in an input file
 and writes the result to an output file.
-In addition, this script removes self-correlations
+In addition, this script removes self-correlations.
 
 Arguments:
     1) Input filename
