@@ -4,7 +4,7 @@ Created on Sun Jan 23 13:07:55 2022
 
 @author: annas
 This script reads two files resulting from the CSD analysis (from Fisher's Z transformed
-and weighted untransformed averages methods) and creates a file for the merged network. 
+and weighted untransformed averages) and creates a file for the merged network. 
 A file with network attributes is also created.
 """
 
