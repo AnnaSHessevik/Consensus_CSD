@@ -3,7 +3,7 @@
 Created on Fri Jan 28 15:35:01 2022
 
 @author: annas
-This script replots the degree distribution for a network identified from Cytoscape.
+This script replots the degree distribution for networks identified from Cytoscape.
 This allows colours and other properties to be altered and fitted to the graphical style in my master's thesis. 
 """
 
