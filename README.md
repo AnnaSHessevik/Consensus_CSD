@@ -11,7 +11,7 @@ The method development of my master's thesis consists of three main steps:
 
 ## Analysis of Bipolar Disorder
 The consensus CSD analysis of BP consists of five major steps as listed below. Note that the folder called BP_analysis also includes a file with the generated CSD network(s) for BP.
-1. **Process data sets**: normalize data set if required, extract BP and control samples, convert probe IDs to gene names and omit ambiguous and non-zero expression probes/genes and non-universally represented genes.
+1. **Process data sets**: normalize data sets if required, extract BP and control samples, convert probe IDs to gene names and omit ambiguous and non-zero expression probes/genes and non-universally represented genes.
 2. **Calculate and combine correlation coefficients**: calculate Spearman rank correlation coefficients for all processed data sets, combine correlation coefficients using Fisher's Z transformed and weighted untransformed averages and process the combined correlation coefficients into a readable format for further CSD analysis.
 3. **Conventional CSD analysis and significance filtering**: run the remaining part of the CSD analysis as explained at https://github.com/andre-voigt/CSD. An additional step with significance filtering of the correlations have also been included. 
 4. **Network analysis**: investigation and calculation of degree distribution (from Cytoscape), network assortativity, average clustering and identification of communities, hubs and characteristics of known disease genes for BP. The network analyses also included functional analyses, but these were mainly conducted using external software.
