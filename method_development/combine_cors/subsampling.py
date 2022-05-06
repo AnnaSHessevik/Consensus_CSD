@@ -6,7 +6,7 @@ Created on Fri Sep 17 13:43:18 2021
 This script splits a given data set into subsets with 10-49 samples. In some cases,
 a maximum of 58 samples is allowed to make the subsets correspond to the
 full data set.
-A file is generated to indicate the subsample sizes of the random splits.
+A file, which indicates the subsample sizes of the random splits, is generated.
 
 """
 
