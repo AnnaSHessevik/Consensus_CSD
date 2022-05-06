@@ -3,7 +3,7 @@
 Created on Tue Nov  9 15:31:13 2021
 
 @author: annas
-This script finds common genes in the input datasets.
+This script finds common genes between the input datasets.
 """
 from itertools import combinations
 
