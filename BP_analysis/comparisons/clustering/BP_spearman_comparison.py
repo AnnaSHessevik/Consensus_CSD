@@ -5,8 +5,7 @@ Created on Wed Jan 12 13:03:08 2022
 
 @author: annas
 This script is a modified version of subsample_correlation_of_correlations.
-It calculates the Spearman rank correlation between the correlation coefficients
-based on Fisher's Z transformation and the untransformed mean.
+It calculates the Spearman rank correlation between two data sets.
 
 The arguments correspond to:
     1) Reference file (to which the other file will be compared, here: file with Spearman rank correlations from a data set)
