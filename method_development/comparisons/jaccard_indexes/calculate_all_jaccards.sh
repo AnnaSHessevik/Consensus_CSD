@@ -1,4 +1,4 @@
-#Calculate jaccard indexes between "correct" correlations between gene pairs and estimated correlations
+#This script calculates Jaccard indexes between "true" correlations between gene pairs and estimated correlations.
 
 python3 remove_minus_and_selfcorr.py spearman_not_sun_1000genes.txt 2 copy_spearman_not_sun_1000genes.txt #remove minus signs and self-correlations
 sort -k 3gr copy_spearman_not_sun_1000genes.txt > sorted_numerically_spearman_not_sun_1000genes.txt #sort numerically
