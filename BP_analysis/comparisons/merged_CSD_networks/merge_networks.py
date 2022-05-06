@@ -3,8 +3,8 @@
 Created on Sun Jan 23 13:07:55 2022
 
 @author: annas
-This script reads two files resulting from the CSD analysis (from fisher
-and arithmetic average methods) and creates a file for the merged network. 
+This script reads two files resulting from the CSD analysis (from Fisher's Z transformed
+and weighted untransformed averages methods) and creates a file for the merged network. 
 """
 
 def make_set(infile):
