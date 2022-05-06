@@ -5,7 +5,7 @@ Created on Wed Oct 27 14:43:39 2021
 @author: annas
 This script creates two data sets with control or case (biploar 
 disorder) samples from the GSE53987.
-Similar to processing of GSE92538
+
 """
 #Open input files
 raw_data = open("GSE53987_series_matrix.txt")
