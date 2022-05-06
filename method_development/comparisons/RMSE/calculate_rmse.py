@@ -58,7 +58,7 @@ if __name__ == '__main__':
     rmse = calculate_rmse(test_file, reference_file, col)
     
     
-    #Write RSE to file
+    #Write RMSE to file
     outfile = open(sys.argv[4], 'a')
     outfile.write(sys.argv[1] + '\t' + str(rmse) + '\n')
     
