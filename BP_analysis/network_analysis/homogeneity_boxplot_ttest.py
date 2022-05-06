@@ -3,9 +3,10 @@
 Created on Wed Mar  9 16:27:39 2022
 
 @author: annas
-This script creates a boxplot of degree vs. node homeogenity of a
-CSD network and calculate p-value of homogeneity difference between
-hubs and intermediate genes.
+This script creates a boxplot of degree vs. node homeogenity for a
+CSD network and calculates the p-value of the homogeneity difference between
+hubs and intermediate genes. In addition, it calculates the correlation between
+degree and homogeneity in the network.
 """
 
 import matplotlib.pyplot as plt
