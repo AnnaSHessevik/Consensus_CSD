@@ -9,8 +9,8 @@ It calculates the Spearman rank correlation between the correlation coefficients
 based on Fisher's Z transformation and the untransformed mean.
 
 The arguments correspond to:
-    1) Reference file (to which the other file will be compared, here: fisher)
-    2) The input file, a file with Spearman rank correlations (here: arithmetic average)
+    1) Reference file (to which the other file will be compared, here: file with Spearman rank correlations from a data set)
+    2) The input file, a file with Spearman rank correlations (here: file with Spearman rank correlations from a second data set)
     3) Y if it is wishful to make a plot
     4) "scatter" or "heatmap" depending on the wanted plot type
     
