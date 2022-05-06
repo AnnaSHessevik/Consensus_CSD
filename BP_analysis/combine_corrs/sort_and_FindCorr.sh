@@ -1,7 +1,7 @@
 
-#This script sort gene expression files and goes through all expression data sets for BP
-# and generates their corresponding spearman rank correlations using a slightly modified FindCorrAndVar.cpp.
-#Sample sizes are given in sample_sizes_BP.txt and samples_sizes_ctrl.txt
+#This script sorts gene expression files and goes through all expression data sets for bipolar disorder
+# and calculates their corresponding Spearman rank correlations using a slightly modified FindCorrAndVar.cpp.
+#Sample sizes are given in sample_sizes_BP.txt and samples_sizes_ctrl.txt (not provided at github)
 
 ulimit -s unlimited #enable use of FindCorrAndVar.cpp
 i=0 #counter
