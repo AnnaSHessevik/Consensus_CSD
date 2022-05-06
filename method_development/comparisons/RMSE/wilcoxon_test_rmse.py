@@ -2,7 +2,8 @@
 """
 
 @author: annas
-This script performs the paired Wilcoxon signed-rank test for RMSE.
+This script performs the paired Wilcoxon signed-rank test for 
+comparison of RMSEs for the combination methods.
 """
 
 from scipy.stats import wilcoxon
