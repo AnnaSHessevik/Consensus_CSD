@@ -1,4 +1,5 @@
-#This script calculates Jaccard indexes between correlations based on Fisher's Z transformed values and weighted untransformed values.
+#This script calculates Jaccard indexes between correlations based on Fisher's Z transformed values or weighted untransformed values
+#relative to correlations from sample data sets.
 #Remember to change script according to investigation of BP or ctrl samples.
 
 #Sort file 1
