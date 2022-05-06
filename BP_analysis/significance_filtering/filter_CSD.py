@@ -3,7 +3,7 @@
 Created on Fri Feb 11 10:28:22 2022
 
 @author: annas
-This script exclude insignificant gene pairs from the CSD network.
+This script excludes insignificant gene pairs from the CSD network.
 """
 def make_list(infile):
     gene_pairs = [] #list with significant gene pairs
