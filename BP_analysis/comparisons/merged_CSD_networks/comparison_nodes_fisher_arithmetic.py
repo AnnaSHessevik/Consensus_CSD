@@ -9,7 +9,6 @@ The following comparisons are carried out and written to file:
     1) See if the node is common
     2) Identify degree
     3) Identify common neighbours
-    4) Indentify number of C, S and D links
     
     
 Furthermore, this script plots degree of nodes in the CSD network based on 
