@@ -4,7 +4,7 @@ Created on Sun Oct  3 16:33:10 2021
 
 @author: annas
 
-This script write the correlation of correlation to a file.
+This script writes the correlation of correlation (reference vs. subgorup) to a file.
 The chosen file is dependent on the subsample size of the origial file 
 where the correlation was calculated.
 Arguments:
