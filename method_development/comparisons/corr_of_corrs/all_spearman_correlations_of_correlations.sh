@@ -1,5 +1,5 @@
 
-#Generate a new file with calculated Spearman rank correlations for all data sets (estimated vs. real values)
+#This script generates a new file with calculated Spearman rank correlations for all data sets (estimated vs. real values)
 
 set -o noclobber #prevent overwriting existing files
 echo -e "File number \tFisher vs real \tUntransformed average vs real" > comparison_correlation_of_correlations.txt
