@@ -3,8 +3,8 @@
 Created on Sun Oct  3 15:46:43 2021
 
 @author: annas
-This script calculates the Spearman rank correlation between the "correct" correlation
-as calculated for an entire data set relative to Spearman rank correlations from a subsample of the data set.
+This script calculates the Spearman rank correlation between the "true" correlations
+calculated from an entire data set relative to Spearman rank correlations from a subgroup of the data set.
 The arguments correspond to:
     1) The input file, a file with Spearman rank correlations from the subsample
     2) Y if it is wishful to make a plot
