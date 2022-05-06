@@ -5,8 +5,8 @@ Created on Mon Oct  4 15:43:28 2021
 @author: annas
 This script calculates the Jaccard index of an input file relative to
 a file with "correct" correlations.
-NB: input files must be sorted beforehand. This is performed directly in 
-the command line in my code (see jaccard_combined.sh).
+NB: input files must be sorted beforehand. This may be performed directly in 
+the command line.
 Arguments:
     1) Sorted file with "correct" correlations (sorted based on correlation coefficients)
     2) Sorted file with estimated correlations (sorted based on correlation coefficients).
