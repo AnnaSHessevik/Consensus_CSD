@@ -3,7 +3,7 @@
 Created on Thu Mar  3 14:35:18 2022
 
 @author: annas
-This script extract CSD links in the input data set which
+This script extracts CSD links in the input data set which
 matches the BP CSD network.
 """
 
