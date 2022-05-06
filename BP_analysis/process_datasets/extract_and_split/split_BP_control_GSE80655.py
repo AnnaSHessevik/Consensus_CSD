@@ -5,7 +5,6 @@ Created on Wed Oct 27 14:43:39 2021
 @author: annas
 This script creates two data sets with control or case (biploar 
 disorder) samples from the GSE80655.
-Similar to processing of GSE92538
 """
 #Open input files
 raw_data = open("GSE80655_normalized_counts.txt")
