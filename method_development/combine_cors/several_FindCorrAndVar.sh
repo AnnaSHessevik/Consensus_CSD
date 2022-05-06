@@ -1,5 +1,5 @@
 #This script goes through all the subsample files and generates their corresponding spearman rank correlations using a slightly modified FindCorrAndVar.cpp.
-#The sample size is given by the file not_sun_1000genes_sample_sizes.txt
+#The sample size is given by the file not_sun_1000genes_sample_sizes.txt (not included at github)
 
 ulimit -s unlimited #enable use of FindCorrAndVar.cpp
 i=0 #counter
