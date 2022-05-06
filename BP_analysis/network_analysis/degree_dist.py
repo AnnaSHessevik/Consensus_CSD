@@ -3,6 +3,8 @@
 Created on Fri Jan 28 15:35:01 2022
 
 @author: annas
+This script replots the degree distribution for a network identified from Cytoscape.
+This allows colours and other properties to be altered and fitted to the graphical style in my master's thesis. 
 """
 
 import networkx as nx
@@ -43,26 +45,6 @@ def plot_dd(G, col, pars, r2, fig_name):
     
     plt.savefig(fig_name, dpi=500, bbox_inches='tight')
 
-    #Cumulative degree distribution
-# =============================================================================
-#     fig, ax = plt.subplots()
-#     c_counts = list(counts)
-#     c_counts.reverse()
-#     cs = np.cumsum(c_counts)
-#     c_values = list(values)
-#     c_values.reverse()
-#     plt.loglog(c_values, cs, 'o', c=col)
-#     plt.ylabel("Sample with value > Degree")
-#     plt.xlabel("Degree")
-#     ax.set_xticks([1, 10, 30, 40])
-#     ax.set_yticks([1,10,100,1000])
-#     ax.set_xticklabels([1,10,30,40])
-#     ax.set_yticklabels([1,10,100,1000])
-#     plt.xlim([1,40])
-#     plt.ylim([1,1000])
-# =============================================================================
-    
-    #plt.savefig("cumulative_"+fig_name, dpi=500, bbox_inches='tight')
 
 if __name__ == '__main__':
     #Open files
