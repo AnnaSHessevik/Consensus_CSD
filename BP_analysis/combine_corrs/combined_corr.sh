@@ -1,4 +1,5 @@
-#This script combines correlation coefficients
+#This script combines correlation coefficients using two alternative approaches: 
+#Fisher's Z transformed and weighted untransformed averages of the correlation coefficients
 
 sample_type=ctrl #Specified by user, BP or ctrl
 
