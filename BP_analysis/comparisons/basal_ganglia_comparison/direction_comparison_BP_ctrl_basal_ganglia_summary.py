@@ -3,8 +3,8 @@
 Created on Mon Mar 21 11:14:31 2022
 
 @author: annas
-This script creates a summary of the statistics for comparison
-of the BP CSD network with basal ganglia
+This script creates a summary of the statistics for the comparison
+of the BP CSD network and correlations from basal ganglia
 """
   
 from scipy.stats import binomtest
