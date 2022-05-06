@@ -3,8 +3,8 @@
 Created on Sun Jan 23 14:59:17 2022
 
 @author: annas
-This scripts investigate and compare nodes from two CSD networks based
-on Fisher's Z transformed values or weighted untransformed means.
+This script investigates and compares nodes from two CSD networks based
+on Fisher's Z transformed or weighted untransformed averages of correlation coefficients.
 The following comparisons are carried out and written to file:
     1) See if the node is common
     2) Identify degree
