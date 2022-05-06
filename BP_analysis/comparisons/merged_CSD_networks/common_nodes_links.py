@@ -3,9 +3,9 @@
 Created on Thu Nov 18 16:32:54 2021
 
 @author: annas
-This script find edges from the CSD approach which are identified 
-in methods using Fisher's Z transformed averages or
-arithmetic averages
+This script finds common nodes and edges, and calculates Jaccard indexes,
+for the CSD networks for bipolar disorder based on both Fisher's Z transformed
+and weighted untransformed averages.
 """
 
 def make_set(infile):
