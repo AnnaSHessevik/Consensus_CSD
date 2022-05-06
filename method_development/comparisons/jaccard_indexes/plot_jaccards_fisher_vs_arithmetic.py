@@ -5,7 +5,8 @@ Created on Fri Jan 14 14:02:09 2022
 @author: annas
 Modified version of plot_jaccards.py
 This script creates a plot of Jaccard indexes relative to number of 
-investigated gene pairs
+investigated gene pairs when the Jaccard indexes are calculated between 
+the two combination methods.
 """
 import matplotlib
 #matplotlib.use('Agg')
