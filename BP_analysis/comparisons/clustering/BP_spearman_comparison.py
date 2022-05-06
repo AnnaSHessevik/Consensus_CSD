@@ -59,8 +59,8 @@ def calculate_correlation(fisher_corr):
                 plt.scatter(test_corr_list,fisher_corr_list, c="skyblue")
                 plt.xlim([-1, 1])
                 plt.ylim([-1, 1])
-                plt.xlabel("Untransformed average correlation", fontweight='bold')
-                plt.ylabel("Transformed average correlation", fontweight='bold')
+                plt.xlabel("Data set 1", fontweight='bold')
+                plt.ylabel("Data set 2", fontweight='bold')
                 plt.show()
                 plt.savefig(sys.argv[2] +"correlation_of_correlations_scatter"+".png")
             #Heatmap
@@ -70,12 +70,12 @@ def calculate_correlation(fisher_corr):
                 plt.clim(1,350000)
                 cb = plt.colorbar()
                 cb.set_label('Number of entries')
-                plt.xlabel("Untransformed average correlation", fontweight='bold')
-                plt.ylabel("Transformed average correlation", fontweight='bold')
+                plt.xlabel("Data set 1", fontweight='bold')
+                plt.ylabel("Data set 2", fontweight='bold')
                 plt.text(-0.9, 0.8, r'$r_s$ = $%.4f$' % (spearman[0]), fontsize=18)
                 #plt.show()
                 plt.plot([-1, 1], [-1,1],linestyle='dashed', color = 'black')
-                plt.savefig(sys.argv[2] +"correlation_of_correlations_heatmap.png", dpi=500, bbox_inches='tight')
+                plt.savefig(sys.argv[2] +"similarity_heatmap.png", dpi=500, bbox_inches='tight')
         return spearman
     except:
         return 0
