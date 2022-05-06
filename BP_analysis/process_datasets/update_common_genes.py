@@ -4,7 +4,7 @@ Created on Thu Jan 13 12:41:51 2022
 
 @author: annas
 This script removes the genes which have all expression values
-equal to 0 in GSE80655 from the total list of common genes (for all datasets)
+equal to 0 in GSE80655 from the total list of common genes (for all datasets).
 The final list of common genes are written to the file called 
 final_common_genes.txt
 """
