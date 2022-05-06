@@ -4,7 +4,7 @@ Created on Wed Jan 12 13:03:08 2022
 
 
 @author: annas
-This script is a modified version of subsample_correlation_of_correlations.
+This script is a modified version of subsample_correlation_of_correlations.py.
 It calculates the Spearman rank correlation between two data sets.
 
 The arguments correspond to:
