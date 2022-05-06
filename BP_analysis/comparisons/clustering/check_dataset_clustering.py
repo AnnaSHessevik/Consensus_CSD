@@ -3,7 +3,7 @@
 Created on Fri Feb 25 11:14:34 2022
 
 @author: annas
-This scripts create cluster heatmap to visualize the similarity between the 
+This script creates a cluster heatmap to visualize the similarity between the 
 data sets used to combine correlation coefficients in the CSD analysis
 
 """
