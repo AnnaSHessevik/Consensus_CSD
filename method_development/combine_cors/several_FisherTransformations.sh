@@ -1,6 +1,6 @@
-#This script goes through all the spearman rank correlation coefficient files and
+#This script goes through all the Spearman rank correlation coefficient files and
 #generates combined coefficients for each repition.
-#The sample size is given by the file not_sun_1000genes_sample_sizes.txt
+#The sample size is given by the file not_sun_1000genes_sample_sizes.txt (not provided at github)
 
 
 for rep in {1..100}; #Controls number of repetitions
