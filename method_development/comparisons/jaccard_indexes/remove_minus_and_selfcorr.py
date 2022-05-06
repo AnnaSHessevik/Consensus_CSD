@@ -3,8 +3,8 @@
 Created on Fri Oct  8 14:02:35 2021
 
 @author: annas
-This script removes negative sign in a spesified column in an input file
-and write the result to an output file.
+This script removes negative signs in a spesified column in an input file
+and writes the result to an output file.
 In addition, this script removes self-correlations
 
 Arguments:
