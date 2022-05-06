@@ -3,10 +3,10 @@
 Created on Fri Oct 29 09:25:39 2021
 
 @author: annas
-This script translate probes to gene names. 
+This script translates probes to gene names. 
 A data set with probes and a file with probe to gene names 
 should be provided. Position of the probe and gene names 
-should also be spesified.
+should also be specified.
 """
 
 #Change input parameters here
