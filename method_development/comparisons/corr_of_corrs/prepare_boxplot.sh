@@ -1,4 +1,7 @@
 
+#This script calculates correlation of correlations for all subgroups (relative to reference values) 
+#and writes the calculated correlation of correlations to files dependent on the subsample size. 
+
 echo -e "File name \t Spearman rank correlation coefficient" > correlation_subsamples10-19.txt
 echo -e "File name \t Spearman rank correlation coefficient" > correlation_subsamples20-29.txt
 echo -e "File name \t Spearman rank correlation coefficient" > correlation_subsamples30-39.txt
