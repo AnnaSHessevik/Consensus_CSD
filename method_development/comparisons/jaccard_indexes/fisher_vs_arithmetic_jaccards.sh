@@ -1,4 +1,4 @@
-#Calculate jaccard indexes between correlation coefficient based on Fisher's Z transformation and untransformed values
+#This script calculates Jaccard indexes between correlation coefficient based on Fisher's Z transformed and weighted untransformed averages.
 
 i=0 #counter
 
