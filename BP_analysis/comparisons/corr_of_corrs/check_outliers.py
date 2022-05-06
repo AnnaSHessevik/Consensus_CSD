@@ -4,7 +4,7 @@ Created on Mon Feb  7 11:43:02 2022
 
 @author: annas
 This script identifies the outliers between combined correaltion
-coefficients based on Fisher's Z transformed and untransformed values.
+coefficients based on Fisher's Z transformed and weighted untransformed values.
 """
 
 import sys
