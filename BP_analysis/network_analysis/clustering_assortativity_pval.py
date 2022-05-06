@@ -5,7 +5,7 @@ Created on Tue Apr 19 17:24:03 2022
 @author: annas
 This script generates new networks from a given degree sequence
 using a configuration model. For each network, the assortativity and clustering 
-is calculated. This is used to estimate a p-value for the assortativity and 
+are calculated. This is used to estimate a p-value for the assortativity and 
 clustering coefficients of the CSD network and its subnetworks."""
 
 import networkx as nx
