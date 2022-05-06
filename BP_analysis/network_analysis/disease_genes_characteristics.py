@@ -3,7 +3,7 @@
 Created on Mon Mar 14 12:22:56 2022
 
 @author: annas
-This script identifies and write disease genes to a file. 
+This script identifies and writes disease genes to a file. 
 The node homogeneity is also calculated for each gene.
 Modified version of identification_hubs.py
 """
