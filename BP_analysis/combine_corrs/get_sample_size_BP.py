@@ -4,7 +4,7 @@ Created on Wed Sep 22 12:32:02 2021
 
 @author: annas
 
-This script find the sample size of a given gene expression file with 
+This script finds the sample size of a given gene expression file with 
 the format something_GEOx.txt, where x correspond to the GEO accession number. 
 Arguments:
     1) Name of data set with expression values
