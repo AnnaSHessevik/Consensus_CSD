@@ -1,6 +1,6 @@
 # Consensus CSD
 
-This repository includes all code which have been utilized in my master's thesis to develop and generate consensus CSD networks for bipolar disorder (BP). This repository is divided into two main sections: Method Development and Analysis of Bipolar Disorder. These are described in more detail below. Note that some parts of the method development and analysis of BP use the same or similar code. In these cases, the scripts are included twice for clarity (once in Method Development and once in Analysis of Bipolar Disorder).
+This repository includes all scripts which have been utilized in my master's thesis to develop and generate consensus CSD networks for bipolar disorder (BP). This repository is divided into two main sections: Method Development and Analysis of Bipolar Disorder. These are described in more detail below. Note that some parts of the method development and analysis of BP use the same or similar code. In these cases, the scripts are included twice for clarity (once in Method Development and once in Analysis of Bipolar Disorder).
 The provided code should be viewed as an extension of the conventional CSD approach, which is available at https://github.com/andre-voigt/CSD.
 
 ## Method Development
