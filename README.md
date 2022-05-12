@@ -5,7 +5,7 @@ The provided code should be viewed as an extension of the conventional CSD appro
 
 ## Method Development
 The method development of my master's thesis consists of three main steps:
-1. **Process data set**: convert the data set to an appropriate format for CSD analysis, translate Gencode IDs to gene names, average gene expressions if some Gencode IDs correspond to the same gene name and reduce the number of genes to 1000.
+1. **Process data set**: convert the data set to an appropriate format for CSD analysis, translate Gencode IDs to gene names, average gene expressions if some Gencode IDs correspond to the same gene names and reduce the number of genes to 1000.
 2. **Split the data set and re-combine correlation coefficients**: create subgroups of the data set, calculate Spearman rank correlation coefficients for all subgroups and for the total data set and combine subgroup correlation coefficients using Fisher's Z transformed and weighted untransformed averages.
 3. **Comparisons**: compare the combined correlation coefficients to the reference correlations by calculating the Spearman rank correlation coefficient of the correlations (correlation of correlations), root mean square error (RMSE) and Jaccard indexes.
 
